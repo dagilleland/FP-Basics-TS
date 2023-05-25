@@ -155,7 +155,12 @@ as we describe the function data type (name and signature).
   - *Lines 2 & 3* are the parameters for the function signature
   - *Line 4* is the return type of the function signature
 
-We can then further generalize our Compose type by replacing the explicit types used with generics, as follows:
+As it stands so far, our `Compose` data type is pretty specific to our ultimate use case with `increment` and `tostring`;
+we have restricted the function signature to only work with `string` and `number` data.
+It would serve us better in the future if we could generalize our Compose type for other scenarios.
+In fact, that's what **patterns** are all about: finding algorithms that can be applicable in different situations.
+**Function Composition** is one such pattern that is powerful and prevalent in the FP world; So much so, that you will find it built into libraries and baked into programming languages themselves.
+Let's do this by replacing the explicit types used with generics, as follows:
 
 ```ts
 type Compose = <A, B, C>(
@@ -218,3 +223,14 @@ const compose_2: Compose = (f, g) => x => f(g(x))
 As you think through this `Compose` function, you can read the generic components this way: *Compose works to produce the `C` result by sending the results of the `B` function into the `A` function.* All you have to do is send in an `x` value into your call to `compose_2`.
 
 My goal is that the descriptions used here will act as a solid reference for you in the future. If you've enjoyed this lesson, be sure to give both me and the video creator a "like", and remember to *subscribe* for more excellent content.
+
+----
+
+## Further Reading
+
+Here are a few resources for additional study that I searched for after writing this article. Helpful if you like to dive further into Function Composition.
+
+- [Function Composition](https://en.wikipedia.org/wiki/Function_composition) on Wikipedia (*don't judge*)
+- [Function Composition](https://www.sciencedirect.com/topics/mathematics/functional-composition) from Science Direct (*for those who need more scientific-sounding explanations*)
+- [Why do we use functional composition in the order we do?](https://matheducators.stackexchange.com/questions/24950/why-do-we-use-functional-composition-in-the-order-we-do) from StackExchange (*because I know you're wondering why...*)
+- [A short introduction to Functional Composition](https://dev.to/martinpersson/a-short-introduction-to-functional-composition-lno) (*because everyone needs a little tl;dr*)

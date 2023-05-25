@@ -79,5 +79,17 @@ const compose = (f, g) => x => f(g(x))
 
 ----
 
+> ### Bing Chat Result C
+>
+> In mathematics, function composition is an operation ∘ that takes two functions f and g, and produces a function h = g ∘ f such that h(x) = g(f(x))¹. In this operation, the function g is applied to the result of applying the function f to x. 
+> 
+> Source: Conversation with Bing, 2023-05-25
+> (1) Function composition - Wikipedia. https://en.wikipedia.org/wiki/Function_composition.
+> (2) Composition of Functions - Math is Fun. https://www.mathsisfun.com/sets/functions-composition.html.
+> (3) Functional Composition - an overview | ScienceDirect Topics. https://www.sciencedirect.com/topics/mathematics/functional-composition.
+> (4) Functional diversity, functional composition and functional β diversity .... https://www.sciencedirect.com/science/article/pii/S1439179121000086.
+
+----
+
 ## 04: Function Composition demo
 
