@@ -41,10 +41,11 @@ and then applying that data type to the function definition.
 ```ts
 // - Declare the `AdderFunc` data type
 type AdderFunc = (a: number, b: number) => number
-//  \ function/ \\____________________/    \____//
+//  \data-type/ \\____________________/    \____//
 //   \  name /   \ |- Parameters            |- Return Type
 //    \_____/     \____________________________/
-//     |- data-type     |- function signature
+//     |            |- function signature
+//     |- my programmer-defined data type
 
 // Define the `myFunc_alt` function (name and implementation)
 const myFunc_alt: AdderFunc = (a, b) => a + b
