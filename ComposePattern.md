@@ -23,8 +23,8 @@ Also recall that with JavaScript we are used to giving names to our functions an
 const myFunc = (a, b) => a + b
 //    \name/    |  |     \___/
 //              |  |       |- the implementation or "body" of the function; returning a value
-//              |  |- `b` is a variable name
-//              |- `a` is a variable name
+//              |  |- `b` is a variable name for a parameter of `myFunc`
+//              |- `a` is a variable name for a parameter of `myFunc`
 ```
 
 With TypeScript, we also give names to the Data Types that are in play.
