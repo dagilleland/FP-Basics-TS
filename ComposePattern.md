@@ -133,8 +133,8 @@ Breaking it down line-by-line, we can understand it as follows:
 | Line # | TypeScript                                         | English                                                                                        |
 | :----: | :------------------------------------------------- | :--------------------------------------------------------------------------------------------- |
 |   1.   | <code>type Compose = (             </code>         | **`Compose`** is going to receive two functions as its parameters:                             |
-|   2.   | <code>&nbsp;&nbsp;f: (x: number) => string,</code> | the first function is going to receive a number and then returns a string                      |
-|   3.   | <code>&nbsp;&nbsp;g: (x: number) => number </code> | the second function is going to receive a number and then returns a number                     |
+|   2.   | <code>&nbsp;&nbsp;f: (x: number) => string,</code> | the first function is going to receive a number and then return a string                      |
+|   3.   | <code>&nbsp;&nbsp;g: (x: number) => number </code> | the second function is going to receive a number and then return a number                     |
 |   4.   | <code>) => (x: number) => string   </code>         | and then this compose function produces a function that receives a number and returns a string |
 
 <!--
