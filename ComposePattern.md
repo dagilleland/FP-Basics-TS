@@ -29,6 +29,8 @@ const myFunc = (a, b) => a + b
 
 With TypeScript, we also give names to the Data Types that are in play.
 That is, every data type is "named" just as our functions and variables have been "named".
+Some data types like `string` and `number` are built into JavaScript/TypeScript.
+Other data types used in TypeScript are ones defined by programmers as part of their particular application.
 What's important to remember is that since functions are "first-class objects" just like our variables,
 that means every function has a "data type" just like every variable has a "data type".
 
