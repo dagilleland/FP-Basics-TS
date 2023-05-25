@@ -2,7 +2,7 @@
 
 > A follow-along with the [Functional Programming with TypeScript](https://www.youtube.com/playlist?list=PLuPevXgCPUIMbCxBEnc1dNwboH6e2ImQo) YouTube playlist by [Web Village Voyage](https://www.youtube.com/@webvv) (Sahand Javid).
 
-Sahand Javid's videos on FP with TS are terrific! His explanation of concepts and use of examples is very clear. The progression from topic to topic and video to video is well crafted. Each video is also short (from ~4 to ~18 minutes long), which makes the very digestible.
+Sahand Javid's videos on FP with TS are terrific! His explanation of concepts and use of examples is very clear. The progression from topic to topic and video to video is well crafted. Each video is also short (from ~4 to ~18 minutes long), which makes them very digestible.
 
 - [ ] Bundle sets of videos into a single lesson. E.g.: 01 through 04
   - [ ] Bundling his short videos into sets creates content that is suitable for a typical one or two hour class period, when combined with examples, practice and Socratic learning techniques.
