@@ -35,6 +35,7 @@ that means every function has a "data type" just like every variable has a "data
 In TypeScript, the definition of a data type that describes the function will require us
 to also state the data types for the function's parameters and return type. That is,
 the data type of a function will describe the "signature" of the function.
+**Function signatures** are important because they tell you how to use or call the function.
 What follows is an example of declaring the data type for a function,
 and then applying that data type to the function definition.
 
@@ -49,7 +50,7 @@ type AdderFunc = (a: number, b: number) => number
 
 // Define the `myFunc_alt` function (name and implementation)
 const myFunc_alt: AdderFunc = (a, b) => a + b
-//    \__ name  : datatype /|\\____/   \____//
+//    \   name  : datatype /|\\____/   \____//
 //     \__________________/ | \\__/      |- Body of the function
 //       |- function name   |  \|- params  /
 //                          |   \_________/
